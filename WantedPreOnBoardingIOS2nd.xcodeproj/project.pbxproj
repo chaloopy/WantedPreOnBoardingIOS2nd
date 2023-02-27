@@ -13,6 +13,7 @@
 		5DAB6A6C29A6F86B0012F15B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5DAB6A6A29A6F86B0012F15B /* Main.storyboard */; };
 		5DAB6A6E29A6F86D0012F15B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5DAB6A6D29A6F86D0012F15B /* Assets.xcassets */; };
 		5DAB6A7129A6F86D0012F15B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5DAB6A6F29A6F86D0012F15B /* LaunchScreen.storyboard */; };
+		5DAB6A7C29A709840012F15B /* ImageLoadStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DAB6A7B29A709840012F15B /* ImageLoadStackView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		5DAB6A6D29A6F86D0012F15B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5DAB6A7029A6F86D0012F15B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5DAB6A7229A6F86D0012F15B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5DAB6A7B29A709840012F15B /* ImageLoadStackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageLoadStackView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +58,40 @@
 		5DAB6A6329A6F86B0012F15B /* WantedPreOnBoardingIOS2nd */ = {
 			isa = PBXGroup;
 			children = (
-				5DAB6A6429A6F86B0012F15B /* AppDelegate.swift */,
-				5DAB6A6629A6F86B0012F15B /* SceneDelegate.swift */,
-				5DAB6A6829A6F86B0012F15B /* ViewController.swift */,
+				5DAB6A7829A6F8800012F15B /* Resources */,
+				5DAB6A7A29A6F89F0012F15B /* Views */,
+				5DAB6A7929A6F8990012F15B /* Controllers */,
 				5DAB6A6A29A6F86B0012F15B /* Main.storyboard */,
-				5DAB6A6D29A6F86D0012F15B /* Assets.xcassets */,
-				5DAB6A6F29A6F86D0012F15B /* LaunchScreen.storyboard */,
 				5DAB6A7229A6F86D0012F15B /* Info.plist */,
 			);
 			path = WantedPreOnBoardingIOS2nd;
+			sourceTree = "<group>";
+		};
+		5DAB6A7829A6F8800012F15B /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				5DAB6A6D29A6F86D0012F15B /* Assets.xcassets */,
+				5DAB6A6F29A6F86D0012F15B /* LaunchScreen.storyboard */,
+				5DAB6A6429A6F86B0012F15B /* AppDelegate.swift */,
+				5DAB6A6629A6F86B0012F15B /* SceneDelegate.swift */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		5DAB6A7929A6F8990012F15B /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				5DAB6A6829A6F86B0012F15B /* ViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		5DAB6A7A29A6F89F0012F15B /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				5DAB6A7B29A709840012F15B /* ImageLoadStackView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -141,6 +168,7 @@
 				5DAB6A6929A6F86B0012F15B /* ViewController.swift in Sources */,
 				5DAB6A6529A6F86B0012F15B /* AppDelegate.swift in Sources */,
 				5DAB6A6729A6F86B0012F15B /* SceneDelegate.swift in Sources */,
+				5DAB6A7C29A709840012F15B /* ImageLoadStackView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
